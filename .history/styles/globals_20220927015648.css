@@ -1,0 +1,189 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+ 
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.font-serif {
+	font-family: 'Lora', serif;
+}
+
+.font-sans {
+	font-family: 'Karla', sans-serif;
+}
+
+[x-cloak] {
+	display: none !important;
+}
+.main{
+  display: flex;
+  height: 100vh;
+}
+
+
+.container{
+  flex-grow: 1;
+  padding: 2em;
+ background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.title{
+  font-size: 3em;
+}
+.info{
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 1.5em;
+  color: black;
+}
+.navbtn{
+  
+  border: none;
+  outline: none;
+  padding: .3em 1em;
+  font-size: 1em;
+  letter-spacing: 1px;
+ 
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 15vw;
+ 
+  
+}
+
+.sidebar{
+  width: 260px;
+  flex-shrink: 0;
+  background-color: rgb(8, 63, 45);
+  height: 87vh;
+  overflow: auto;
+  position: fixed;
+}
+
+
+.sidebar-item{
+  padding: .75em 1em;
+  display: block;
+  transition: background-color .15s;
+  border-radius: 5px;
+}
+.sidebar-item:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar-title{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  color: rgb(224, 224, 224);
+}
+.sidebar-title span i{
+  display: inline-block;
+  width: 1.5em;
+  
+}
+.sidebar-title .toggle-btn{
+  cursor: pointer;
+  transition: transform .3s;
+  
+}
+.sidebar-item.open > .sidebar-title .toggle-btn{
+  transform: rotate(180deg);
+}
+.sidebar-content{
+  padding-top: .25em;
+  height: 0;
+  overflow: hidden;
+}
+.sidebar-item.open > .sidebar-content{
+  height: auto;
+}
+
+.sidebar-item.plain{
+  color: #fff;
+  text-decoration: none !important;
+}
+.sidebar-item.plain:hover{
+  text-decoration: underline;
+}
+.sidebar-item.plain i{
+  display: inline-block;
+  width: 1.7em;
+}
+@media screen and (max-width:780px) {
+  .sidebar{
+    width: 100px;
+    flex-shrink: 0;
+    background-color: rgb(8, 63, 45);
+    height: 87vh;
+    overflow: auto;
+    position: fixed;
+  }
+ 
+.sidebar-item{
+  padding: .75em 1em;
+  display: block;
+  transition: background-color .15s;
+  border-radius: 5px;
+}
+.sidebar-item:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar-title{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  color: rgb(224, 224, 224);
+}
+.sidebar-title span i{
+  display: inline-block;
+  width: 1.5em;
+  
+}
+.sidebar-title .toggle-btn{
+  cursor: pointer;
+  transition: transform .3s;
+  
+}
+.sidebar-item.open > .sidebar-title .toggle-btn{
+  transform: rotate(180deg);
+}
+.sidebar-content{
+  padding-top: .25em;
+  height: 0;
+  overflow: hidden;
+}
+.sidebar-item.open > .sidebar-content{
+  height: auto;
+}
+
+.sidebar-item.plain{
+  color: #fff;
+  text-decoration: none !important;
+}
+.sidebar-item.plain:hover{
+  text-decoration: underline;
+}
+.sidebar-item.plain i{
+  display: none;
+  width: 1.7em;
+
+}
+  
+}
