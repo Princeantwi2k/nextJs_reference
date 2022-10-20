@@ -67,7 +67,7 @@ body {
 }
 
 .sidebar{
-  width: 260px;
+  width: 210px;
   flex-shrink: 0;
   background-color: rgb(8, 63, 45);
   height: 90%;

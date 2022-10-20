@@ -30,6 +30,7 @@
     width: 16rem;
     border: none;
     padding: 5px;
+    outline: 0px;
   }
   .dropdownItem{
     cursor: pointer;

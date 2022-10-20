@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from "../../styles/Home.module.css"
 import Card from 'react-bootstrap/Card';
+import MyVerticallyCenteredModal from "../Modal/modal"
 
 function Content() {
+
+  const [modalShow, setModalShow] = useState(false);
 
   const content = [
     {
@@ -16,7 +19,7 @@ function Content() {
       icon:<i className="bi bi-arrow-clockwise"></i>,
       name: "Reset password",
       contents: "Need to reset your password? No Problem! just click the button below and you'ill be on your way",
-       comment:<p  className={styles.cardlink} >Click to reset</p>,
+       comment:<p  className={styles.cardlink}  onClick={() => setModalShow(true)}>Click to reset</p>,
        id:"2"
     },
     {
@@ -44,6 +47,10 @@ function Content() {
   {/* <div className={styles.contentName}>
   <h3>Dashboard</h3>
   </div> */}
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
 
 <div className={styles.contentContainer}>
  

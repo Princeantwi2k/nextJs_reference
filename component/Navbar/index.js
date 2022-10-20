@@ -52,8 +52,7 @@ function Navbar({providers,session}) {
     <input type="text"  placeholder="what are you looking for"  className={styles.navInput} />
     <button className='btn btn-default'>
     <i className="bi bi-search"></i>
-    </button>
-    
+    </button>  
 </form>
     </div>
    
@@ -64,7 +63,7 @@ function Navbar({providers,session}) {
   </button>
  
   <ul className="dropdown-menu">
-    <li className={styles.dropdownItem}><a className="dropdown-item" href='/login'>signIn</a></li>
+    <li className={styles.dropdownItem}><Link className="dropdown-item" href='/login'>signIn</Link></li>
 
     
   </ul>
