@@ -8,8 +8,8 @@ import Sidebar from '../Sidebar'
 function Layout({children}) {
   return (
     <>
-  <Navbar />
- <Sidebar />
+  {/* <Navbar />
+ <Sidebar /> */}
     <div className={styles.container}>
         <main className={styles.main}></main>{children}
     </div>

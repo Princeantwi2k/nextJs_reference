@@ -1,0 +1,431 @@
+.ItermHeader{
+    position: relative;
+   
+}
+.Header {
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    background-color: white;
+    width:80vw ;
+    padding-left: 55px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+.ItermBody{
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    background-color: white;
+    width: 70vw;
+    
+}
+.ItermTab{
+    margin-left: 10rem;
+}
+.tabpanel{
+    display: flex;
+    justify-content: space-between;
+}
+.maintab{
+    display: flex;
+}
+.subTab{
+    display: flex;
+    gap: 20px;
+}
+.subTab > p {
+    color: darkgreen;
+}
+.itermBottom{
+    width: 100px;
+
+}
+.Itermform{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Itermform > input{
+    width: 16rem;
+    padding: 5px;
+    border: none;
+    outline: 0px;
+}
+.Itermforms{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: white;  
+}
+.Itermforms > select {
+    padding: 10px;
+    border: none;
+    outline: 0px;
+}
+
+.ItermMainBody{
+    position: absolute;
+    top: 10rem;
+ left: 0.5rem;
+    background-color: white;
+    width: 70vw;
+}
+
+.ItermTable{
+    background-color:  rgb(244, 247, 248);
+    margin-top: 20px;
+}
+
+.TableButton{
+    background-color: white;
+    border-color: aqua;
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    width: 80px;
+}
+.TableButton1{
+    background-color: white;
+    border-color: rgb(212, 91, 91);
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    width: 80px;
+}
+.TableButtonAll{
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    width: 80px;
+}
+@media screen  and (max-width:480px){
+    .ItermHeader{
+        position: relative;
+       
+    }
+    .Header {
+        position: absolute;
+        top: 5rem;
+        left: 6rem;
+        background-color: white;
+        width:100vw ;
+        padding-left: 55px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        
+    }
+    .ItermBody{
+        position: absolute;
+        top: 12rem;
+        left: 6rem;
+        background-color: white;
+        width: 70vw;
+       
+        
+    }
+    .ItermTab{
+        margin-left: 10rem;
+    }
+    .tabpanel{
+        display: flex;
+        justify-content: space-between;
+        padding: 4rem;
+        
+    }
+    .maintab{
+        display: flex;
+    }
+    .subTab{
+        display: flex;
+        gap: 20px;
+    }
+    .subTab > p {
+        color: darkgreen;
+    }
+    .itermBottom{
+        width: 100px;
+    
+    }
+    .Itermform{
+        border: 1px solid lightblue;
+        border-radius: 5px;
+        background-color: white;
+        
+    }
+    .Itermform > input{
+        width: 16rem;
+        border: none;
+        padding: 5px;
+        border: none;
+        outline: 0px;
+    }
+    
+    .ItermMainBody{
+        position: absolute;
+        top: 22rem;
+        left: 6rem;
+        background-color: white;
+        width: 70vw;
+    }
+    .ItermTable{
+        background-color:  rgb(226, 224, 224);
+       
+    }
+    .TableImage{
+        height: 30px;
+        border:  1px solid lightblue;
+        border-radius: 10px;
+    }
+    .TableButton{
+        background-color: white;
+        border-color: aqua;
+        padding: 10px;
+        font-size: 0.6rem;
+        border-radius: 20px;
+        width: 80px;
+    }
+    .TableButton1{
+        background-color: white;
+        border-color: rgb(212, 91, 91);
+        padding: 10px;
+        font-size: 0.6rem;
+        border-radius: 20px;
+        width: 80px;
+    }
+}
+.Scheduled{
+    position: relative;
+   
+}
+.ScheduledHeader {
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    background-color: white;
+    width:80vw ;
+    padding-left: 55px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+.ScheduledBody{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    width: 70vw;
+    
+}
+
+.ScheduledName{
+    display: flex;
+    gap: 20px;
+}
+.TableButtonScheduled{
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+    width: 80px;
+}
+.TableButtonScheduled1{
+    padding: 6px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+    width: 80px;
+    
+}
+.ScheduledButton{
+    display: flex;
+    gap: 10px;
+}
+.ScheduledMainBody{
+ 
+    position: absolute;
+    top: 15rem;
+    left: 15.5rem;
+    height: 132vh;
+    background-color: white;
+     width: 15vw;
+     border-right: 1px solid lightblue;
+
+}
+.ScheduledMainBody > ul {
+    margin:40px 10px;
+    
+}
+.ScheduledMainBody > ul > li {
+    list-style: none;
+}
+.ScheduledForm{
+    position: absolute;
+    background-color: white;
+    left: 28rem;
+    top: 15rem;
+    height: 132vh;
+    width: 45vw;
+    border-left: 1px solid rgb(176, 187, 186);
+}
+.ScheduledForm > form{
+    margin:40px 10px;
+}
+.ScheduledInputs{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 38px;
+}
+.ScheduledInput{
+    padding-left: 38px;
+  display: flex;
+  gap: 10px;
+ 
+}
+.ScheduledInputsTittle{
+    padding-top: 10px;
+    padding-left: 38px;
+}
+.ScheduledInputsDescription{
+    padding-top: 10px;
+    padding-left: 38px;
+}
+.input{
+    width:19vw;
+    background-color: rgb(226, 224, 224);
+    border-radius: 5px;
+    border: none;
+    outline: 0px;
+}
+.inputs{
+    width:19vw;
+    border-radius: 5px;
+    border: none;
+    outline: 0px;
+    background-color: rgb(226, 224, 224);
+}
+.input1{
+    width:25vw;
+    border-radius: 5px;
+    border: none;
+    outline: 0px;
+    background-color: rgb(226, 224, 224);
+
+}
+.input2{
+    width:12vw;
+    border-radius: 5px;
+    border: none;
+    outline: 0px;
+    background-color: rgb(226, 224, 224);
+}
+.textarea{
+    width: 40vw;
+    border-radius: 5px;
+   height: 100px;
+   border: none;
+   outline: 0px;
+   background-color: rgb(226, 224, 224);
+}
+.textarea1{
+    width: 40vw;
+    border-radius: 5px;
+   height: 40px;
+   color: rgb(226, 224, 224);
+   font-size: 12px;
+   padding-top: 10px;
+   border: none;
+   outline: 0px;
+   background-color: rgb(226, 224, 224);
+}
+.ScheduledPic{
+    height: 130px;
+    width: 120px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.ScheduledIterm{
+   
+    position: absolute;
+   background-color: white;
+    left:66.4rem;
+    top: 15rem;
+    height: 132vh;
+    width:20vw ;
+    border-left: 1px solid rgb(176, 187, 186);
+}
+.Iterm{
+    display: block;
+}
+
+.ItermPic{
+    height: 400px;
+    padding: 10px;
+    width: 300px;
+}
+.ItermButton{
+    background-color: rgb(65, 34, 94);
+    color: white;
+    width: 15vw;
+    height: 50px;
+    margin-left: 50px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+.TooltipList {
+  
+   background-color: aliceblue;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.TooltipList > li{
+list-style: none;
+}
+.RejectionInput{
+    width: 30vw;
+    height: 15vh;
+  padding: 10px;
+  margin-left: 20px;
+  outline: 0px;
+  border: 1px solid rgb(204, 200, 200);
+  border-radius: 10px;
+  box-shadow: 3px 0px 6px 0px rgba(246, 246, 246, 0.75);
+
+}
+.RejectBottoms{
+    display: flex;
+    justify-content: space-around;
+}
+.Rejectionlink{
+    background-color: rgb(4, 83, 66);
+    width: 200px;
+    margin: 20px;
+    padding: 8px;
+    color: white;
+   text-align: center;
+   cursor: pointer;
+    border-radius: 10px;
+  
+}
+.Rejectionlinks{
+    background-color:white;
+    width: 200px;
+    margin: 20px;
+    padding: 8px;
+    color:  rgb(4, 83, 66);
+   text-align: center;
+   cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid  rgb(4, 83, 66);
+  
+}
+.Rejectionlink:hover{
+    background-color: rgb(4, 48, 38);
+}
+.Rejectionlinks:hover{
+    background-color: whitesmoke;
+}
+

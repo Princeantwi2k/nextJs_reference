@@ -4,24 +4,29 @@
         "icon": "bi-microsoft",
         "childrens": [
             {
-                "title": "Ongoing Actions",
+                "title": "Dashboad",
                 
-                "path": "/"
+                "path": "/dashboad"
             },
             {
-                "title": "Closed Auctions",
+                "title": "Ongoing Actions",
                 
                 "path": "/Overview"
             },
             {
+                "title": "Closed Auctions",
+                
+                "path": "/"
+            },
+            {
                 "title": "Disputes",
                 
-                "path": "/about"
+                "path": "/"
             },
             {
                 "title": "Boosted iterms",
                 
-                "path": "/about"
+                "path": "/"
             },
             {
                 "title": "Report",
@@ -42,65 +47,37 @@
         ]
     },
     {
-        "title": "Account",
+        "title": " Management",
         "icon": "bi-info-circle-fill",
         "childrens": [
             {
-                "title": "Login",
-                "path": "/login"
+                "title": "Item list",
+                "path": "/Item"
             },
             {
-                "title": "Register",
-                "path": "/register"
-            },
-            {
-                "title": "Forgot Password",
-                "path": "/forgot-password"
-            },
-            {
-                "title": "Reset Password",
-                "path": "/reset-password"
+                "title": "Categories",
+                "path": "/ScheduledPage"
             }
+        
         ]
     },
     {
-        "title": "Profile",
+        "title": "Report",
         "icon": "bi-person-fill",
         "childrens": [
             {
-                "title": "Profile",
-                "path": "/profile"
+                "title": "Transactions",
+                "path": "/"
             },
             {
-                "title": "Settings",
-                "childrens": [
-                    {
-                        "title": "Account",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "Billing",
-                        "childrens": [
-                            {
-                                "title": "Payment",
-                                "path": "/settings/billing/payment"
-                            },
-                            {
-                                "title": "Subscription",
-                                "path": "/settings/billing/subscription"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Notifications",
-                        "path": "/settings/notifications"
-                    }
-                ]
+                "title": "Customer",
+                "path": "/"
             },
             {
-                "title": "Logout",
-                "path": "/logout"
+                "title": "Payment channels",
+                "path": "/"
             }
+     
         ]
     },
     {

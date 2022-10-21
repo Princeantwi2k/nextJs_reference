@@ -37,6 +37,9 @@
     justify-content: space-between;
     position: relative;
 }
+.Data > span{
+    padding: 10px;
+}
 .icons{
 
     position: relative;
@@ -157,6 +160,9 @@
     padding: 10px 10px 0 10px;
  }
  .InvoiceHeader > p {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
     padding: 5px 5px 5px 5px;
     border-radius: 20px;
     color: white;

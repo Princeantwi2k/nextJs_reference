@@ -3,10 +3,10 @@ import Layout from '../component/Layout/Layout'
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import {SessionProvider} from "next-auth/react"
-
+import Script from 'next/script'
 function MyApp({ Component, pageProps }) {
   return (
-    <SessionProvider>
+    <SessionProvider >
     <Layout>
       <Head>
       <link
@@ -16,7 +16,9 @@ crossOrigin="anonymous"
 />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
+
       </Head>
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" strategy="lazyOnload" />
     <Component {...pageProps} />
     </Layout>
     </SessionProvider>

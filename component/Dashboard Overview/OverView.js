@@ -21,21 +21,21 @@ function OverView() {
             name:<p className={styles.icons}><i className="bi bi-house-door"></i></p>,
             contents:"Active User(200)",
              comment:"view details",
-             id:"1"
+             id:"2"
           },
         {
             icon:<i className="bi bi-three-dots"></i>,
             name:<p className={styles.icons}><i className="bi bi-house-door"></i></p>,
             contents:"Unverified users(160)",
              comment:"view details",
-             id:"1"
+             id:"3"
           },
         {
             icon:<i className="bi bi-three-dots"></i>,
             name: <p className={styles.icons}><i className="bi bi-house-door"></i></p>,
             contents:"Total Revenue($150)",
              comment:"view details",
-             id:"1"
+             id:"4"
           },
           
         

@@ -1,0 +1,71 @@
+.login{
+    background-color: rgb(244, 247, 248);
+    display: flex;
+    overflow-x: hidden;
+}
+.left{
+    width: 50vw;
+}
+.left > h3{
+    padding-left: 100px;
+    color: rgb(19, 82, 82);
+}
+.left > p {
+    padding-left: 100px;
+}
+
+.rigth{
+   width: 50vw; 
+}
+.right >form{
+    position: relative;
+    top: 5rem;
+  background-color: white;
+  width: 40vw;
+  left: 10rem;
+  height: 70vh;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+  border-radius: 20px;
+  z-index: 99;
+}
+.right >form >h3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.right > form > label {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.right > form > input{
+    margin-left: 30px;
+    padding: 18px;
+    width: 23vw;
+    border-radius: 10px;
+    outline: 0px;
+    border: 1px solid gray;
+  
+}
+.right > form > p{
+    position: relative;
+    left: 14rem;
+    padding: 10px;
+    color: red;
+}
+.right > form > button{
+    position: relative;
+    left: 3rem;
+    margin-top: 10px;
+    padding: 13px;
+    width: 20vw;
+    background-color: rgb(4, 83, 66);
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}
+.right > form > button:hover{
+    background-color: rgb(6, 58, 47);
+}

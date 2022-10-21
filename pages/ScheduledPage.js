@@ -1,16 +1,14 @@
 import React from 'react'
-import OverView from '../component/Dashboard Overview/Overview'
+import Scheduled from '../component/DashboardScheduled/Schedule'
 import Navbar from '../component/Navbar'
 import Sidebar from '../component/Sidebar'
 
-function Overview() {
+export default function ScheduledPage() {
   return (
     <div>
       <Navbar />
       <Sidebar />
-      <OverView />
+        <Scheduled />
     </div>
   )
 }
-
-export default Overview
